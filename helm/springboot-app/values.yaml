@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: kkarka/springboot-app
+  tag: "1"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 8080
+  nodePort: 30007
+
