@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: kkarka/springboot-app
-  tag: "1"
+  repository: kkarka/java-cicd-app
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
