@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: kkarka/java-cicd-app
-  tag: latest
+  tag: 6
   pullPolicy: IfNotPresent
 
 service:
